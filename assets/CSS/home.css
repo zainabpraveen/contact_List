@@ -1,0 +1,66 @@
+body{
+  margin: 0;
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+
+#page-heading{
+   text-align: center;
+   margin-top: 25px;
+   color:grey; 
+}
+
+#frm{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.input-box{
+    border: 2px solid black;
+   height: 25px;
+   margin-right: 3px;
+   padding: 0px;
+  
+}
+#btn{
+    background-color:black;
+    color: wheat;
+    height: 25px;
+    width: 60px;
+}
+
+#contact-list-container{
+  display: flex;
+  direction: row;
+  justify-content: center;
+  
+}
+.details {
+  display: flex;
+  direction: row;
+  justify-content: space-between;
+  width: 250%;
+}
+#list{   
+  list-style: none;
+  margin-left: -46%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 255, 0.322);
+  margin-top: 4px;
+  width: 200%;
+}
+
+.delete-button i{
+  color: white;
+  background-color: red;
+  
+}
+#list:hover{
+  background-color: grey;
+}
+.input-box:hover{
+  background-color:burlywood
+}
